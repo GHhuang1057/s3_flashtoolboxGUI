@@ -23,7 +23,7 @@ class MainWindow(QMainWindow):
         # 侧边导航栏
         self.sidebar = QListWidget()
         self.sidebar.setFixedWidth(200)
-        self.sidebar.addItems(["解锁BL", "功能2", "功能3", "功能4"])
+        self.sidebar.addItems(["解锁BL", "刷机脚本", "功能3", "功能4"])
         self.sidebar.currentRowChanged.connect(self.switch_tab)
 
         # 标签页
